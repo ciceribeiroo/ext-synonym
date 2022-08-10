@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Extensão de sinônimos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Extensão do chrome para pesquisar sinônimos.
 
-## Available Scripts
+Repo da API: <https://github.com/ciceribeiroo/api-synonym>
 
-In the project directory, you can run:
+## Sobre
 
-### `npm start`
+Utilizando a [API de sinônimos](https://github.com/ciceribeiroo/api-synonym), de mesma desenvolvedora, a extensão foi criada utilizando react para que seja possível obter os sinônimos sem interromper suas atividades.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Utilização
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A extensão **ainda** não está disponível para download na Chome Store. Para utilizá-la, siga os seguintes passos:
 
-### `npm test`
+1. Clone o repositório na sua máquina
+```
+git clone https://github.com/ciceribeiroo/ext-synonym.git
+```
+2. Instale os pacotes necessários
+```
+npm install
+```
+3. Rode a aplicação e veja se está tudo certo. Ela irá rodar como uma aplicação web normal.
+```
+npm run start
+```
+![Extensão rodando como aplicação web](https://user-images.githubusercontent.com/45270115/184017611-aa6b04d5-9044-4b6b-ae4a-97020b73f2a7.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Construa a aplicação
+```
+npm run build
+```
+5. Altere o arquivo manifest.json e adicione a logo da extensão.
+Na pasta `build`, substitua o conteúdo do arquivo manifest.json pelo que [está no repositório](manifest.json). Além disso, adicione a logo da extensão, que [também está nesse repositório](logo_128.png).
 
-### `npm run build`
+![image](https://user-images.githubusercontent.com/45270115/184018654-dbb06aa5-fd08-4e09-91cc-ebdcbf55fcbc.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. No Chrome, vá em Configurações > Extensões e ative o modo desenvolvedor
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Configuracoes/Extensoes](https://user-images.githubusercontent.com/45270115/184019045-8505ce00-7647-45b7-af50-ce58597fcbf7.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Ativar o modo desenvolvedor](https://user-images.githubusercontent.com/45270115/184019219-0f720343-7531-4341-bb37-c9475df01752.png)
 
-### `npm run eject`
+6. Carregue a pasta *build* gerada pela construção da aplicação.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Carregando a extensão](https://user-images.githubusercontent.com/45270115/184019435-22356f98-cc78-48e3-adc8-b72f7bcdd405.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Selecionando a pasta build](https://user-images.githubusercontent.com/45270115/184019620-816f832d-657d-42b1-af1c-37ec7a6ef3bf.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Tecnologias Utilizadas
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+As seguintes ferramentas foram usadas na construção do projeto:
+- React
+- HTML
+- css
+- Entre outras...
 
-## Learn More
+## Desenvolvedora
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Feito com 🖤 por Alice Ribeiro 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[![Linkedin Badge](https://img.shields.io/badge/-Alice-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alice-ribeiro-280812182/)](https://www.linkedin.com/in/alice-ribeiro-280812182/) 
+[![Gmail Badge](https://img.shields.io/badge/-ciceribeiroo@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ciceribeiroo@gmail.com)](mailto:ciceribeiroo@gmail.com)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Vamos fazer algo louco juntos?
