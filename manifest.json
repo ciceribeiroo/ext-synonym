@@ -1,0 +1,13 @@
+{
+  "name": "Sinônimos",
+  "description": "Obtenha os sinônimos que você precisa sem interromper seu trabalho",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+      "default_popup": "index.html",
+      "default_title": "Abra o popup"
+  },
+  "icons": {
+      "128": "logo_128.png"
+  }
+}
